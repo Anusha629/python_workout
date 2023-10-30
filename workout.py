@@ -33,3 +33,18 @@ def palindrome(s):
 input = "dad"
 output = palindrome(input)
 print(output)
+
+
+
+def freq(s):
+    freq_dict = {}
+    for letter in s:
+        if letter in freq_dict:
+            freq_dict[letter] += 1
+        else:
+            freq_dict[letter] = 1
+    return freq_dict
+
+input = "hello galaxy"
+output = freq(input)
+print(output)
