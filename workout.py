@@ -25,3 +25,11 @@ def panagram(s):
 input = "he quick brown fox jumps over the lazy dog"
 output = panagram(input)
 print(output)
+
+
+def palindrome(s):
+    s = s.replace(" ", "").lower()
+    return s == s[::-1]
+input = "dad"
+output = palindrome(input)
+print(output)
