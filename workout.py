@@ -12,3 +12,16 @@ def fizzbizz(n):
 n=50
 fizzbizz(n)
 
+
+def panagram(s):
+    alphabets = "abcdefghijklmnopqrstuvwxyz"
+    s = s.lower()
+
+    for letter in alphabets:
+        if letter not in s:
+            return False 
+    return True
+
+input = "he quick brown fox jumps over the lazy dog"
+output = panagram(input)
+print(output)
