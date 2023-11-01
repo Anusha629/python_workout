@@ -20,4 +20,4 @@ def test_modulus():
     assert evaluate("75%") == 2
 
 def test_exponent():
-    assert evaluate("23^") == 12
+    assert evaluate("23^") == 8
