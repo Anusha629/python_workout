@@ -21,5 +21,7 @@ def evaluate(exp):
         else:
             stack.append(int(i))
     return stack.pop()
-            
+
+if __name__ == '__main__':
+    main()
         
