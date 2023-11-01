@@ -6,3 +6,5 @@ def test_add():
     assert evaluate("63+") == 9
 def test_sub():
     assert evaluate("63-") == 3
+def test_sub1():
+    assert evaluate("36-") == -3
