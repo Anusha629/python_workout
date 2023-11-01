@@ -14,5 +14,5 @@ def test_division():
     assert evaluate("82/") == 4
 
 def test_multiple_operations():
-    assert evaluate("123+-") == 4
+    assert evaluate("123+-") == -4
 
