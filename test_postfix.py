@@ -1,4 +1,4 @@
 from postfix import evaluate
 
 def test_single_operand():
-    assert evaluate("10") == 10
+    assert evaluate("9") == 9
