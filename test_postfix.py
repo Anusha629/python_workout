@@ -24,4 +24,4 @@ def test_exponent():
 
 
 def test_complex_exp():
-    assert evaluate("12*23+-") == -5
+    assert evaluate("12*23+-") == -3
