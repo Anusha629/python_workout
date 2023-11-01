@@ -11,6 +11,6 @@ def test_sub1():
 def test_multiply():
     assert evaluate("23*") == 6
 def test_division():
-    assert evaluate("84/") == 6
+    assert evaluate("82/") == 4
 
 
