@@ -8,3 +8,6 @@ def test_sub():
     assert evaluate("63-") == 3
 def test_sub1():
     assert evaluate("36-") == -3
+def test_multiply():
+    assert evaluate("63*") == 1
+
