@@ -9,5 +9,5 @@ def test_sub():
 def test_sub1():
     assert evaluate("36-") == -3
 def test_multiply():
-    assert evaluate("63*") == 1
+    assert evaluate("23*") == 6
 
