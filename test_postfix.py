@@ -21,3 +21,7 @@ def test_modulus():
 
 def test_exponent():
     assert evaluate("23^") == 8
+
+
+def test_complex_exp():
+    assert evaluate("12*23+-") == -5
