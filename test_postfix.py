@@ -10,4 +10,7 @@ def test_sub1():
     assert evaluate("36-") == -3
 def test_multiply():
     assert evaluate("23*") == 6
+def test_division():
+    assert evaluate("84/") == 6
+
 

@@ -10,6 +10,8 @@ def evaluate(exp):
                 stack.append(num_1 - num_2)
             elif i == "*":
                 stack.append(num_1 * num_2)
+            elif i == "*":
+                stack.append(num_1 / num_2)
         else:
             stack.append(int(i))
     return stack.pop()
